@@ -22,7 +22,7 @@ export default class App extends Component {
   _postData = async () => {
     let formData = new formData();
     formData.append('username','admin');
-    formData.append('password','1234')
+    formData.append('password','admin')
     this.setState({text:'Clicked'})
 
     fetch('https://texno.tv/post.php?method=get',{
